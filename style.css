@@ -1,0 +1,246 @@
+Body{
+    background-color: #F6F1F1;
+    margin: 0 40px;
+
+}
+
+/* Nav Start */
+
+nav{
+    background-color: #AFD3E2;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+
+}
+
+.nav-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #19A7CE;
+    transition: 0.2s;
+}
+
+.nav-link a:hover{
+    color: #F6F1F1;
+    font-size: 1.55rem;
+
+}
+
+.nav-header{
+    font-size: 2.4rem;
+    color: #146C94;
+}
+
+.nav-button button{
+    border: 2px solid #146C94;
+    border-radius: 2mm;
+    color: white;
+    background-color: #146C94;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+.nav-button button:hover{
+    cursor: pointer;
+    background-color: #0c435d;
+    color: white;
+}
+
+/* Nav End */
+
+/* Hero Start */
+.hero{
+    position:relative
+}
+
+.hero-background img{
+    width: 100%;
+    opacity: 0.8;
+    filter: grayscale(50%)
+}
+
+.hero-title{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 2.5rem;
+    color: #146C94;
+}
+
+.hero-card{
+    border:1px solid white ;
+    position: absolute;
+    left: 16%;
+    bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    border:1px solid white ;
+    padding: 20px 140px;
+    background-color: #AFD3E2;
+    margin: 0px;
+}
+
+.hero-text{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 85px;    
+    color: #0c435d;
+
+}
+
+.hero-inputs{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.hero-date{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.hero-card-select{
+    border-radius: 5px;
+    padding: 9px;
+    font-size: 1rem;
+}
+
+.hero-card-button{
+    padding: 10px 30px;
+    background-color: #146C94;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #146C94 ;
+    transition: 0.3s;
+}
+
+.hero-card-button:hover{
+    cursor: pointer;
+    background-color: #0c435d;
+}
+
+/* Hero End */
+
+/* About Section Start */
+
+.about-section{
+    display: flex;
+    align-items: center;
+    gap:50px;
+
+}
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.about-title{
+    font-size: 2rem;
+    color:#146C94
+}
+
+.about-para{
+    font-size:1.3rem;
+    color:#0c435d;
+}
+
+
+/* About Section End */
+
+/* Services Section Start */
+
+.service-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.service-title{
+    font-size: 3rem;
+    color: #146C94;
+    margin: 0 0 20px 0;
+}
+
+.service-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.service-card{
+    border: 1px solid #AFD3E2;
+    background-color: #AFD3E2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 10px 0px; 
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.service-card-pic{
+    width: 320px;
+}
+
+.service-card-title{
+    font-size: 1.3rem;
+    color: #0c435d;
+}
+
+.service-card-button{
+    padding: 10px 30px;
+    background-color: #146C94;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #146C94 ;
+    transition: 0.3s;
+}
+
+.service-card-button:hover{
+    cursor: pointer;
+    background-color: #0c435d;
+}
+
+/* Service Section End */
+
+/* Footer Section Start */
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+
+.footer-text-cr{
+    font-size: 1.05rem;
+    color: #146C94;
+}
+
+.footer-text-credit{
+    font-size: 1.05rem;
+    color: #0c435d;
+}
+
+/* Footer Section End */
